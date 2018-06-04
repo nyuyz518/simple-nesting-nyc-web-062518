@@ -64,8 +64,6 @@ def adding_matz
 #    :languages => ["LISP", "C"]
 # }
 
-puts programmer_hash
-
 	programmer_hash = 
  		{
         :grace_hopper => {
@@ -86,6 +84,7 @@ puts programmer_hash
          :languages => ["LISP", "C"]
    }
    puts programmer_hash
+
 end
 
 def changing_alan
